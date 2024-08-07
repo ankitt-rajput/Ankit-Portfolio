@@ -74,10 +74,10 @@
 
     <div class="section_text">
       <p class="section_text_p1"> Hello I'M </p>
-      <h1 class="titleName"> Ankit Raj </h1>
+      <h1 class="titleName" id="profileName">Ankit Raj</h1>
       <p class="section_text_p2"> Software Developer</p>
       <div class="btn_container">
-        <button class="btns btns-color-2 " onclick="window.open('assets/ankitRajResume.pdf')"> Download cv</button>
+        <button class="btns btns-color-2 " onclick="window.open('./assest/Resume.pdf')"> Download cv</button>
         <button class="btns btns-color-1 " onclick="location.href='./#contact'"> contact</button>
       </div>
       <div id="social_container">
@@ -138,7 +138,7 @@
     <h1 class="titleName"> Experience</h1>
     <div class="experience-ontainer">
       <div id="my-exp" class="about-details-container">
-        <div class="details-container res-ex-dt">
+        <div  class="details-container res-ex-dt my-exp-c">
           <h2 class="ex-sub-title">Frontend Experience</h2>
           <div class="article-parent">
             <article class="article-container">
@@ -182,7 +182,7 @@
             
           </div>
         </div>
-        <div class="details-container res-ex-dt">
+        <div class="details-container res-ex-dt my-exp-c">
           <h2 class="ex-sub-title">Programing Languages</h2>
           <div class="article-parent">
             <article class="article-container">
@@ -226,8 +226,6 @@
           </div>
         </div>
       </div>
-      <button class="arrow" onclick="location.href='./#project'"><span
-          class="bi bi-chevron-double-down"></span></button>
   </section>
 
 
@@ -237,12 +235,12 @@
     <div id="my-project" class="about-details-container">
       <div class="details-container color-container">
         <div class="article-parent">
-          <img src="./assets/portfoliio.png" alt="">
+          <img class="projectImg" src="./assets/portfoliio.png" alt="">
         </div>
         <h2 class="ex-sub-titile project-title">Personal Portfolio</h2>
         <div class="btn-container p-btn">
-          <button class="btns btns-p btns-color-2" onclick="window.open('https://github.com/ankitt-rajput/Ankit-Portfolio')"">GitHub</button>
-          <button class="btns btns-p btns-color-2" onclick="window.open('https://ankitt-rajput.github.io/Ankit-Portfolio/')"">Live Demo</button>
+          <button class="btns btns-p btns-color-2" onclick="window.open('https://github.com/ankitt-rajput/Fake-shop')"">GitHub</button>
+          <button class="btns btns-p btns-color-2" onclick="window.open('https://github.com/ankitt-rajput/Fake-shop')"">Live Demo</button>
         </div>
         <div class="Project-description">
           <p>This personal portfolio project, built using HTML, CSS, and JavaScript, showcases my work with a clean and professional design. It includes direct contact options via email and WhatsApp, ensuring seamless communication for potential clients and collaborators.</p>
@@ -250,7 +248,7 @@
       </div>
       <div class="details-container color-container">
         <div class="article-parent">
-          <img src="./assets/fakestore.png" alt="">
+          <img class="projectImg" src="./assets/fakestore.png" alt="">
         </div>
         <h2 class="ex-sub-titile project-title">Shopping Site</h2>
         <div class="btn-container p-btn">
@@ -263,7 +261,7 @@
       </div>
       <div class="details-container color-container">
         <div class="article-parent">
-          <img src="./assets/emi.png" alt="">
+          <img class="projectImg" src="./assets/emi.png" alt="">
         </div>
         <h2 class="ex-sub-titile project-title">Emi Calculator</h2>
         <div class="btn-container p-btn">
@@ -326,7 +324,7 @@
       </ul>
     </div>
     <div class="copyright">
-      <p>Copyright &#169; 2023 Ankit Raj, All Rights Reserved</p>
+      <p>Copyright &#169; 2023 Salmon Bhai, All Rigth Reserved</p>
 
     </div>
   </footer>
